@@ -7,6 +7,36 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+#top-nav {
+    display:block;
+}
+@media screen and (max-width: 736px) {
+    #top-nav{
+	display:none;
+    }
+}
+
+#bottom-nav {
+    display:none;
+}
+@media screen and (max-width: 736px) {
+    #bottom-nav{
+		margin-top: 1rem;
+	display:block;
+    }
+}
+
+.allstuff article h2{
+        text-align: center;
+    padding-top: 1rem;
+    margin: auto;
+}
+.allstuff article{
+    padding-top: 1rem;
+    border-top: 1px solid;
+}
+
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1256,12 +1286,12 @@ button {
 		-ms-transition: opacity 0.325s ease-in-out;
 		transition: opacity 0.325s ease-in-out;
 		position: relative;
-		margin-top: 3.5rem;
 	}
 
 		#header > *:before {
 			content: '';
-			display: block;
+			/*			display: block;*/
+			display: none;
 			position: absolute;
 			top: calc(-3.5rem - 1px);
 			left: calc(50% - 1px);
@@ -1291,11 +1321,11 @@ button {
 		}
 
 	#header .content {
-		border-style: solid;
+	/*	border-style: solid;
 		border-color: #ffffff;
 		border-top-width: 1px;
 		border-bottom-width: 1px;
-		max-width: 100%;
+		max-width: 100%;*/
 	}
 
 		#header .content .inner {
@@ -1372,7 +1402,7 @@ button {
 		left: calc(50% - 1px);
 		width: 1px;
 		height: 100%;
-		background: #ffffff;
+		/*background: #ffffff;*/
 	}
 
 	#header nav.use-middle ul li.is-middle {
@@ -1420,7 +1450,7 @@ button {
 	@media screen and (max-width: 736px) {
 
 		#header > * {
-			margin-top: 2rem;
+		/*	margin-top: 2rem;*/
 		}
 
 			#header > *:before {
@@ -1451,11 +1481,11 @@ button {
 	@media screen and (max-width: 480px) {
 
 		#header {
-			padding: 1.5rem 0;
+		/*	padding: 1.5rem 0;*/
 		}
 
 			#header .content .inner {
-				padding: 2.5rem 0;
+			/*	padding: 2.5rem 0;*/
 			}
 
 			#header nav ul {

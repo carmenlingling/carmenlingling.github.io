@@ -34,7 +34,36 @@
 			<div id="wrapper">
 
 					<!-- This is where the content that appears on page load exists -->
-					<header id="header">
+			  <header id="header">
+			  						<!-- This is the navigation menu -->
+						<nav id="top-nav">
+							<!-- This element makes an "Unordered List" -->
+							<ul>
+								<!-- This is a "List Item" -->
+								<li>
+									<!-- 	Note that this links to #about, which will move the page to wherever
+										the element with the id "about" exists.
+									-->
+									<a href="#about">About Me</a>
+								</li>
+								<li>
+									<a href="#research">Research</a>
+								</li>
+								<li>
+									<a href="#community">Community</a>
+								</li>
+								<li>
+									<a href="#contact">Contact</a>
+								</li>
+								<!-- 	You can add another button to your navigation menu by adding
+									another List Item with a link inside of it.
+								-->
+								<!-- <li>
+									<a href="images/CV_Carmen_Lee (1).pdf">My CV</a>
+								</li> -->
+							</ul>
+						</nav>
+
 						<!-- This is the main content of the front page -->
 						<div class="content">
 							<div class="inner">
@@ -89,15 +118,11 @@
 								</p>
 							</div>
 						</div>
-						<!-- This is the navigation menu -->
-						<nav>
-							<!-- This element makes an "Unordered List" -->
+
+						<nav id="bottom-nav">
 							<ul>
-								<!-- This is a "List Item" -->
+
 								<li>
-									<!-- 	Note that this links to #about, which will move the page to wherever
-										the element with the id "about" exists.
-									-->
 									<a href="#about">About Me</a>
 								</li>
 								<li>
@@ -109,18 +134,12 @@
 								<li>
 									<a href="#contact">Contact</a>
 								</li>
-								<!-- 	You can add another button to your navigation menu by adding
-									another List Item with a link inside of it.
-								-->
-								<!-- <li>
-									<a href="images/CV_Carmen_Lee (1).pdf">My CV</a>
-								</li> -->
 							</ul>
-						</nav>
+
 					</header>
 
 					<!-- These are the "cards" that appear when you click the buttons on the main page -->
-					<div id="main">
+					<div class="allstuff">
 						<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
 							button links to.
 						-->
@@ -128,7 +147,11 @@
 							<h2 class="major">About Me</h2>
 							<!-- Here is an image that you can customize for this page -->
 							<span class="image main">
-								<img src="images/pic01.jpg" alt=""/>
+					  <img src="images/pic01.jpg"
+						style = "height: auto;
+					    width: 600px;
+					    margin: auto;"
+					    alt=""/>
 							</span>
 							<!-- Here are three paragraphs where you can fill out information about yourself -->
 							<p>
@@ -176,16 +199,30 @@
 						<article id="research">
 							<h2 class="major">Research</h2>
 							<span class="image main">
-								<img src="images/drawing.jpg" alt=""/>
+								<img
+						src="images/drawing.jpg"
+						style = "height: auto;
+					    width: 600px;
+					    margin: auto;"
+					    alt=""/>
 							</span>
 							<p>
 								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
 									the next line.
 								-->
-								<b>Project I Title</b><br>Project description, including further links to posters, talks, publications.
+								<b>Buckling
+						instabilities of
+						moving chains of bubbles</b><br>Project description, including further links to posters, talks, publications.
 							</p>
 							<p>
-								<b>Project II Title</b><br>Project description, including further links to posters, talks, publications.
+								<b>Droplets
+						on conical fibers</b><br>Project description, including further links to posters, talks, publications.
+					    </p>
+					    <b>The Cheerios Effect
+						under a thin elastic film</b><br>Project description, including further links to posters, talks, publications.
+					    </p>
+					    </p>
+					    <b>Capillary levelling of immiscible bilayer films</b><br>Project description, including further links to posters, talks, publications.
 							</p>
 						</article>
 
@@ -197,7 +234,11 @@
 						src="images/pic03.jpg"
 						alt="Stylized images
 						of droplets merging on
-						a fiber with a yellow background"/>
+						a fiber with a yellow background";
+						style = "height: auto;
+					    width: 600px;
+					    margin: auto;"
+					    alt=""/>
 							</span>
 							<p>
 								<b>Teaching:</b>
@@ -261,7 +302,12 @@
 						<article id="contact">
 							<h2 class="major">Contact</h2>
 							<p> 
-								<b>Email: <a href="mailto:carmen.lee@mcmaster.ca">carmen.lee@mcmaster.ca </a></b> 
+								<b>Email:
+						<a
+						href="mailto:carmen.lee@mcmaster.ca">carmen.lee@mcmaster.ca
+						</a></b></p>
+<p>
+<b>Email: <a href="mailto:cllee3@ncsu.edu">cllee3@ncsu.edu </a></b> 
 							</p>
 							
 
@@ -283,7 +329,7 @@
 							
 								<!-- The GitHub icon -->
 								<li>
-									<a href="#" class="icon fa-github">
+									<a href="carmenlingling" class="icon fa-github">
 										<span class="label">GitHub</span>
 									</a>
 								</li>
@@ -303,10 +349,13 @@
 
 					<!-- This is the footer that appears at the bottom of the page -->
 					<footer id="footer">
-						<!-- 	You can change "Untitled" to your name to show everyone that
+						<!-- 	You can change
+					"Carmen Lee" to your name to show everyone that
 							this is your work.
 						-->
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p
+					class="copyright">&copy;
+					Carmen Lee. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
