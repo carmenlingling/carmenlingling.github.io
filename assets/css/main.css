@@ -35,8 +35,15 @@
     padding-top: 1rem;
     border-top: 1px solid;
 }
+.allstuff {
+    width: 90%;
+}
 
-
+.allstuff img {
+    width: 70%;
+    height: auto;
+    margin: auto;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
